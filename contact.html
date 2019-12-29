@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cassandra Marcussen - Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <!--img id="logo" src="/logo_website.png"-->
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                </a>
+            </div>
+            
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                <p id="name" class="navbar-item">
+                    Cassandra Marcussen
+                </p>
+                <a class="navbar-item" href="index.html">
+                    Home
+                </a>
+            
+                <a class="navbar-item">
+                    Biography
+                </a>
+
+                <a class="navbar-item">
+                    Projects
+                </a>
+
+                <a class="navbar-item">
+                    Internships
+                </a>
+            
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                    More
+                    </a>
+            
+                    <div class="navbar-dropdown">
+                    <a class="navbar-item" href="https://www.linkedin.com/in/cassandra-marcussen-2b13b0142/" target="_blank">
+                        LinkedIn
+                    </a>
+                    <a class="navbar-item" href="cv.html">
+                        CV
+                    </a>
+                    <a class="navbar-item" href="contact.html">
+                        Contact
+                    </a>
+                    </div>
+                </div>
+                </div>
+            
+                <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                    <a class="button is-link" href="mailto:cem2242@columbia.edu">
+                        Email
+                    </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+    </nav>
+
+    <div class="main-page">
+    <div class="tile is-ancestor">
+            <div class="tile">
+              <div class="tile">
+                <div class="tile is-parent is-vertical">
+                  <article class="tile is-child notification is-info">
+                    <p class="title">Contact Me</p>
+                    <p class="subtitle">Please feel free to reach out to me as I'd love to talk.</p>
+                    <p>Email: <a href="mailto:cem2242@columbia.edu">cem2242@columbia.edu</a></p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/cassandra-marcussen-2b13b0142/">Cassandra Marcussen</a></p>
+                  </article>
+                </div>
+             </div>
+            </div>
+    </div>
+    <div class="tile is-ancestor">
+            <div class="tile">
+              <div class="tile">
+                <div class="tile is-parent is-vertical">
+                  <article class="tile is-child notification">
+                    <h1 class="title">Email Form</h1>
+                    <div class="field" id="left-align-email">
+                            
+                            <div class="field">
+                            <label class="label">Your Email Address</label>
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input" type="email" placeholder="Email input" value="youremail@">
+                                <span class="icon is-small is-left">
+                                <i class="fas fa-envelope"></i>
+                                </span>
+                            </div>
+                            </div>
+                            
+                            <div class="field">
+                                    <label class="label">Subject</label>
+                                    <div class="control has-icons-left has-icons-right">
+                                        <input class="input" type="text" placeholder="Subject" value="Hello from...">
+                                        <span class="icon is-small is-left">
+                                        <i class="fas fa-envelope"></i>
+                                        </span>
+                                    </div>
+                                    </div>
+                            
+                            <div class="field">
+                            <label class="label">Message</label>
+                            <div class="control">
+                                <textarea class="textarea" placeholder="Hi Cassandra!"></textarea>
+                            </div>
+                            </div>
+                            
+                            <div class="field is-grouped">
+                            <div class="control">
+                                <button class="button is-link" onclick="submit()">Submit</button>
+                            </div>
+                            <div class="control">
+                                <button class="button is-link is-light" onclick="cancel()">Cancel</button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+
+</div>
+
+  </body>
+</html>
+
+<style>
+body{
+    text-align: center;
+    
+}
+
+.main-page {
+    margin: 10px;
+}
+
+.contact-page {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#left-align-email {
+    text-align: left;
+}
+
+#name {
+    font-weight: bold;
+    color: hsl(217, 71%, 53%);
+}
+
+#headshot {
+    height: 300px;
+    border-radius: 10px;
+
+}
+
+</style>
+
+<script>
+
+function submit(){
+    alert("submit");
+}
+
+function cancel(){
+    alert("cancel");
+}
+</script>
