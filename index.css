@@ -13,6 +13,12 @@ body{
     margin-right: 20px;
 }
 
+
+#bio {
+    padding: 30px;
+}
+
+
 #left-align-email {
     text-align: left;
 }
@@ -26,4 +32,8 @@ body{
     height: 300px;
     border-radius: 10px;
 
+}
+
+img {
+    border-radius: 10px;
 }
