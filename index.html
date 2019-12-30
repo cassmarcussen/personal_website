@@ -28,16 +28,20 @@
                     Home
                 </a>
             
-                <a class="navbar-item">
+                <a class="navbar-item" href="bio.html">
                     Biography
                 </a>
 
-                <a class="navbar-item">
+                <a class="navbar-item" href="projects.html">
                     Projects
                 </a>
 
-                <a class="navbar-item">
+                <a class="navbar-item" href="intern.html">
                     Internships
+                </a>
+
+                <a class="navbar-item" href="music.html">
+                    Music
                 </a>
             
                 <div class="navbar-item has-dropdown is-hoverable">
@@ -51,6 +55,9 @@
                     </a>
                     <a class="navbar-item" href="cv.html">
                         CV
+                    </a>
+                    <a class="navbar-item" href="writing.html">
+                        Writing Samples
                     </a>
                     <a class="navbar-item" href="contact.html">
                         Contact
@@ -72,8 +79,34 @@
     </nav>
 
     <div class="main-page">
-        <h1 class="title">Welcome! My name is Cassandra Marcussen.</h1>
-        <img id="headshot" src="headshot.jpeg">
+            <h1 class="title">Welcome! My name is Cassandra Marcussen.</h1>
+            <img id="headshot" src="headshot.jpeg">
+            <span></span>
+            <div class="tile is-ancestor">
+                    <div class="tile">
+                      <div class="tile">
+                        <div class="tile is-parent is-vertical">
+                          <article class="tile is-child" id="bio">
+                            <h1 class="title">About Me</h1>
+                            <p>I am a rising sophomore at Columbia University pursuing a dual major in Mathematics and Computer Science, and I am seeking a career that combines my passion for technology with my desire to solve large, multifaceted problems.</p>
+                            <p style="color: white;">---</p>
+                            <p>I am passionate about formulating and implementing creative, unique approaches to a wide range of complex questions. 
+                                Computer Science has given me an incredible toolkit with which to do so and has taught me how to conceptually approach computational problems in an innovative, extensible manner. 
+                                Currently, I am fluent in Java, JavaScript, HTML/CSS, Python, and NodeJS, and I have also worked in C, Ruby, R, Markdown, and LaTeX. 
+                                During this past summer, I grew tremendously as a software engineer and web developer during my software engineering internship at Amazon. 
+                                I look forward to applying the skills I have learned this summer to future internships — including technical skills I have developed and broader skills such as managing long-term personal projects. 
+                            </p>  
+                            <p style="color: white;">---</p>
+                            <p>Since first learning Computer Science, I have sought out leadership roles for large technical projects, which has taught me how to work effectively in teams and balance project management with being an individual contributor. 
+                                I embrace the challenges and incredible learning that comes with leading technical projects. 
+                                For example, as a Tech Contributor and web developer for Bwog, a student-run Columbia newspaper, I am constantly discovering new ways to manage and contribute to projects to ensure effective results. 
+                            </p>
+                            </article>
+                        </div>
+                     </div>
+                    </div>
+            </div>
+                
     </div>
 
   </body>
@@ -87,6 +120,11 @@ body{
 
 .main-page {
     margin: 10px;
+}
+
+#bio {
+
+    padding: 30px;
 }
 
 #name {
