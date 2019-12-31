@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
     <link rel="stylesheet" type="text/css" href="index.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script defer src = "contact.js"></script>
   </head>
   <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -124,13 +125,15 @@
                             <div class="field">
                             <label class="label">Message</label>
                             <div class="control">
-                                <textarea class="textarea" placeholder="Hi Cassandra!"></textarea>
+                                <textarea class="textarea input" placeholder="Hi Cassandra!"></textarea>
                             </div>
                             </div>
                             
                             <div class="field is-grouped">
                             <div class="control">
+                                <form method="post" action="mailto:cem2242@columbia.edu" >
                                 <button class="button is-link" onclick="submit()">Submit</button>
+                                </form>
                             </div>
                             <div class="control">
                                 <button class="button is-link is-light" onclick="cancel()">Cancel</button>
@@ -181,12 +184,15 @@ body{
 </style>
 
 <script>
-
 function submit(){
     alert("submit");
 }
 
 function cancel(){
-    alert("cancel");
+    var inputs = document.getElementsByClassName("input");
+    var i;
+    for (i = 0; i < inputs.length; i++) {
+        inputs[i].value = "";
+    }
 }
 </script>
