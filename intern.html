@@ -77,20 +77,58 @@
                 </div>
             </div>
     </nav>
-    <h1 class="title">Internships</h1>
-    <hr>
-    <h1 class="title">Summer 2020 - Google</h1>
-    <img id="google-logo" src="google_logo.jpg">
-    <h1 class="title">Summer 2019 - Amazon</h1>
-    <p style="color: white;">---</p>
-    <p style="color: white;">---</p>
-    <p style="color: white;">---</p>
-    <p style="color: white;">---</p>
-    <img id="amazon-logo" src="amazon_logo.png">
-    <p style="color: white;">---</p>
-    <p style="color: white;">---</p>
-    <p style="color: white;">---</p>
-    <p style="color: white;">---</p>
+    <div class="main-page">
+        <h1 class="title">Internships</h1>
+        <hr>
+        <div class="tile is-ancestor">
+                <div class="tile">
+                  <div class="tile">
+                    <div class="tile is-parent is-vertical">
+                      <article class="tile is-child" id="internships">
+                        <h1 class="title">Summer 2020 - Google</h1>
+                        <img id="google-logo" src="google_logo.jpg">
+                        <p>
+                                I am an incoming STEP software engineering intern for the Google Geo StreetView team. 
+                                During the 12-week internship, I will be working on a project in C++ and Java. 
+                                For the project, I will develop a machine learning model that facilitates the process in which user-submitted photos can be integrated into the Google StreetView map. 
+                                The project will be incorporated into Google Maps, which reaches a user base of billions of people daily. 
+
+                        </p>
+                        <p style="color: white;">---</p>
+                        <p style="color: white;">---</p>
+                        <h1 class="title">Summer 2019 - Amazon</h1>
+                        <p style="color: white;">---</p>
+                        <p style="color: white;">---</p>
+                        <p style="color: white;">---</p>
+                        <p style="color: white;">---</p>
+                        <img id="amazon-logo" src="amazon_logo.png">
+                        <p style="color: white;">---</p>
+                        <p style="color: white;">---</p>
+                        <p style="color: white;">---</p>
+                        <p style="color: white;">---</p>
+                        <p>
+                            During my summer internship at Amazon, I designed and implemented a full-stack web application to streamline the AmazonAPI governance body’s API approval process. For the project, I programmed in JavaScript, NodeJS, Python, HTML, CSS, and Markdown. 
+                            The website provides filters and a search bar to sort APIs by ETA, status, alias, or title. Page users can dynamically view and revise submitted APIs and post comments. 
+                            For the APIs displayed on the website, theere is a description of the API or contract change and a conversation section converted from Markdown to HTML. 
+                            The conversation section is updated and synced automatically among all users and serves as a place where different engineers can communicate about the requested changes. 
+                        </p>
+                        <p style="color: white;">---</p>
+                        <p>
+                            The website automates user authentication and weekly email notifications using internal Amazon tools as well as AWS resources. 
+                            For back-end development, I created three APIs and eight AWS Lambda functions, as well as a scheduled task runner and a Markdown-to-HTML converter. 
+                            I created, queried, and updated a DynamoDB mailing list database using AWS API Gateway and AWS Lambda. 
+                            For front-end development, I implemented an intuitive, responsive user interface using the Bulma CSS framework.
+                        </p>
+                        <p style="color: white;">---</p>
+                        <p>
+                            During the summer internship, I wrote >100k lines of code over 12 weeks that were pushed to production. 
+                        </p>
+                    </article>
+                </div>
+             </div>
+            </div>
+    </div>
+    </div>
 </body>
 </html>
 
@@ -100,6 +138,15 @@
     width: 500px;
     border-radius: 10px;
     height: 100%;
+}
+
+.main-page {
+    margin: 10px;
+}
+
+#internships {
+    padding: 30px;
+    padding-top: 0px;
 }
 
 </style>
