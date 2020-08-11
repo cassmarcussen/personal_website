@@ -80,22 +80,60 @@
                   <div class="tile">
                     <div class="tile is-parent is-vertical">
                       <article class="tile is-child" id="internships">
-                        <h1 class="title">Summer 2020 - Google</h1>
-                        <img src="google_logo.jpg">
-                        <p>
-                            During Summer 2020, I am a STEP software engineering intern for the YouTube Ad Formats - Infeed team. 
-                        </p>
-                        <p style="color: white;">---</p>
-                        <p style="color: white;">---</p>
                         <h1 class="title">Summer 2020 - Microsoft Research (Reinforcement Learning)</h1>
                         <img src="microsoftresearch.jpg">
                         <p style="color: white;">---</p>
                         <p>
                             During Summer 2020, I am an independent research developer as part of Microsoft Research's Reinforcement Learning Open Source Fest, for which students complete a four-month research programming project aimed to “solve open source reinforcement learning problems and advance the state-of-the-art research and development alongside the RL community”.
                         </p>
+                        <p>
+                            The project title is: Parallelized Parsing. The project abstract is: 
+                            "Modern machines often utilize many threads to achieve good performance. Currently, VW uses a single thread to read in and parse input, and a single thread to learn. 
+                            The parse thread presents a bottleneck, slowing down VW as a whole. By extracting the input reading into a separate thread and extending the parser to support many threads, 
+                            VW can better utilize resources, achieve better performance, and have an improved design by separating logical components into independent modules. 
+                            This project focuses on improving performance and design for the text input format, and also ensures compatibility with the cache input format."
+                        </p>
+                        <p>
+                            For this project I contributed to Vowpal Wabbit (VW), an open source machine learning developed by Microsoft Research. 
+                            I extracted out the I/O processes and created a separate parallel process for input, and multithreaded the parsing component. 
+                            The VW user can select how many threads to use for the parsing component using a command-line option.
+                        </p>
+                        <p>
+                            I was 1 of 6 selected students out of a pool of over 200 undergraduate, masters, and PhD applicants (3 undergraduate, 3 graduate students accepted) for the Microsoft RL Open Source Fest.
+                        </p>
+                        <p>
+                            Link to my forked VW code repository (with Parallelized Parsing project on branches): <a href="https://github.com/cassmarcussen/vowpal_wabbit">Video Vigilance</a>
+                        </p>
+                        <p>
+                            Link to wikipage for Parallelized Parsing Project: <a href="https://github.com/cassmarcussen/vowpal_wabbit/wiki">Video Vigilance</a>
+                        </p>
                         <p style="color: white;">---</p>
                         <p> 
                         My project is: “Parallelized parsing” in C++. Contributing to Vowpal Wabbit (VW), an open source machine learning library developed by Microsoft Research.
+                        </p>
+                        <p style="color: white;">---</p>
+                        <p style="color: white;">---</p>
+                        <h1 class="title">Summer 2020 - Google</h1>
+                        <img src="google_logo.jpg">
+                        <p>
+                            During Summer 2020, I am a STEP software engineering intern for the YouTube Ad Formats - Infeed team. \
+                        </p>
+                        <p>
+                            I proposed and worked on Video Vigilance, which uses machine learning and computer vision techniques from the Google Cloud Vision
+                            API and Video Intelligence API to detect unsafe or negative content in video advertisements. I was responsible for the workflow of parsing keyframe images, detecting negative content, and displaying results using html. 
+                            I came up with the original idea for Video Vigilance, which the YouTube Ads – Formats team approved entirely.
+                        </p>
+                        <p>
+                           For Video Vigilance I also wrote design docs and constructed visuals of the user flows and distribution of tasks. For the back-end, I implemented RESTful Java servlets to post, get and delete blobs from DataStore and Google Cloud Storage. 
+                            I focused on extensibility and edge-case handling in Java classes calling the Cloud Vision API to extract the effect of keyframe images from the video. 
+                            For the front-end, I implemented a streamlined, professional user interface using Bootstrap.
+                        </p>
+                        <p>For the internship, I also wrked on a Personal Portfolio website, implementing a comments section on each page and using Google APIs such as the Google Maps API, Blobstore API, and Google Charts API.</p>
+                        <p>
+                            Link to Video Vigilance code repository: <a href="https://github.com/cassmarcussen/video-vigilance">Video Vigilance</a>
+                        </p>
+                        <p>
+                            Link to Personal Portfolio website code repository: <a href="https://github.com/cassmarcussen/google-step">Personal Portfolio website</a>
                         </p>
                         <p style="color: white;">---</p>
                         <p style="color: white;">---</p>
